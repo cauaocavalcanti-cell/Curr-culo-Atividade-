@@ -1,15 +1,55 @@
 body{
-    background-color: aqua;
+    background-color: rgb(17, 57, 110);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-
-h1, h2, h3{
-    text-align: center;
     
 }
 
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    background: rgb(90, 63, 153);
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+    background: rgb(17, 91, 201);
+}
+
+h3{
+    text-align: center;
+    color: aliceblue;
+    background: rgb(26, 138, 167);
+}
+
+
 p{
     text-align: center;
+    color: aliceblue;
+}
+
+section{
+   
+   
+    width: 100%; 
+    height: 500px; 
+
+   background: url("../Img/contratar-profissionais-de-tecnologia.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+} 
+
+
+img{
+    border-radius: 150px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 440px;
+    
 }
